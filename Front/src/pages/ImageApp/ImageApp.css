@@ -1,0 +1,167 @@
+.image-app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 8vh;
+    border-radius: 50px;
+    border: 1px solid #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.input-controls button {
+    border: 0;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 200ms ease-in-out;
+}
+
+.white {
+    color: white;
+}
+
+.input-controls button:hover {
+    scale: 1.11;
+}
+
+.active-black {
+    position: absolute;
+    width: 100px;
+    height: 6vh;
+    background-color: #000;
+    z-index: -1;
+    border-radius: 50px;
+    opacity: 0.95;
+    transition: all 1s ease-in-out;
+}
+
+/* 13px */
+/* 391px */
+/* 788px */
+
+.input-main {
+    height: 80vh;
+    width: 70%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+}
+
+.output-main {
+    min-height: 80vh;
+    width: 70%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    position: relative;
+}
+
+/* .input-main:hover {
+    animation-name: slip;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+} */
+
+/* @keyframes slip {
+    0% {
+        scale: 1.025;
+    }
+
+    50% {
+        transform: rotateY(90deg);
+    }
+
+    100% {
+        transform: rotateY(180deg);
+        scale: 1;
+    }
+} */
+
+.input-main-div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.input-main button {
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    transition: all 500ms;
+}
+
+.input-main button:hover {
+    scale: 1.1;
+}
+
+.output-main .before,
+.output-main .after {
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.output-main img {
+    height: 90%;
+}
+
+.left-btn,
+.right-btn {
+    text-decoration: none;
+    z-index: 100;
+    display: grid;
+    place-content: center;
+    font-size: 2.1rem;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50%;
+    opacity: .6;
+    transition: all .3s linear;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.left-btn:hover,
+.right-btn:hover {
+    opacity: 1;
+    scale: 1.05;
+}
+
+.left-btn i,
+.right-btn i {
+    color: black;
+    background-color: white;
+}
+
+.right-btn {
+    left: 95%;
+}

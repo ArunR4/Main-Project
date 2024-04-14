@@ -1,0 +1,39 @@
+.team {
+    width: 100%;
+    padding-top: 2rem;
+    background-color: white;
+    padding-bottom: 10vh;
+}
+
+.team-guide {
+    width: 45%;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.team-guide img {
+    width: 130px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 4px rgb(102, 102, 102));
+}
+
+.team-guide p {
+    text-align: justify;
+    text-indent: 2rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.team-member {
+    margin: auto;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

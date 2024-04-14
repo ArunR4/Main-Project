@@ -1,0 +1,46 @@
+.navbar {
+    width: 95%;
+    margin: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1{
+    color:white;
+}
+
+.navbar .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    transition: all 500ms;
+}
+
+.nav-links a:hover{
+    scale: 1.1;
+}
+
+.nav-btn{
+    font-size: 1.1rem;
+    background-color: transparent;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border:1.5px solid white;
+    border-radius: 6px;
+    transition: all 500ms;
+}
+
+.nav-btn:hover{
+    background: white;
+    color: black;
+    scale: 1.1;
+}

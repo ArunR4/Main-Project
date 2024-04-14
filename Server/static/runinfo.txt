@@ -1,0 +1,3 @@
+Runtime: 40.24s
+Window size: 40
+Clip limit: 4
